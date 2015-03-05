@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_message" value="name:c_id;datatype:int,name:c_author;datatype:string,name:c_sender;datatype:string,name:c_subject;datatype:string,name:c_message;datatype:string,name:date;datatype:date" />
+</info>

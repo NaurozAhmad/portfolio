@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_projects" value="name:proj_id;datatype:int,name:proj_name;datatype:string,name:p_name;datatype:string,name:p_desc;datatype:string,name:proj_author;datatype:string" />
+</info>

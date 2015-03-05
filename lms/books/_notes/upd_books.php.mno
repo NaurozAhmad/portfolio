@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_upd_books" value="name:b_id;datatype:int,name:scat_id;datatype:int,name:b_title;datatype:string,name:b_author;datatype:string,name:b_condition;datatype:string,name:b_date;datatype:date,name:b_volume;datatype:string,name:b_year;datatype:string,name:b_assection;datatype:string,name:b_issn;datatype:string" />
+	<infoitem key="UD_sub_cat" value="name:scat_id;datatype:int,name:scat_name;datatype:string,name:cat_id;datatype:int" />
+</info>

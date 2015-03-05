@@ -1,0 +1,58 @@
+html,body{margin:0;padding:0;background:#fff url(../images/base_bg.png) repeat-x top;width:100%;height:100%;font-family:Arial, Helvetica, sans-serif;}
+* html #wrap{height: 100%;}
+p,td{font-family:Arial, Helvetica, sans-serif; margin-top:0px; font-size:13px;}
+
+a img{border:0;}
+a{color: #e30011;text-decoration:underline;}
+a:hover{color: #e30011;	text-decoration:none;}
+a.hidden{text-decoration: none;color:#000;cursor:default;}
+
+form{margin:0;padding:0;}
+div.clr{clear:both;}
+
+ul{margin:0 0 0 20px;padding:0;list-style-type: square;line-height: 16px;}
+
+h1{font-size:21px;font-weight:normal;color:#e11924;margin:5px 0 10px;}
+h2{font-size:16px;font-weight:normal;color:#000;margin:2px 0 7px;}
+
+#wrap{position:relative; min-height:100%; margin:0 auto; width:100%;}
+#page{width:920px;margin:0 auto;}
+#top{height:93px; background:url(../images/header_bg_top.png) no-repeat right bottom; position:relative;}
+#header{position:relative; background:url(../images/header_bg.jpg) no-repeat right; height:154px;width:920px;}
+	#logo{position:absolute; margin:15px 0 0 36px;}
+	#company_name{font-size:25px;font-weight:normal;text-transform: none;color: #000; position:absolute; margin:34px 0 0 143px;}
+	#company_name span{color:#e30011;}
+
+#menu{color: #FFF;font-weight: bold;padding: 0;white-space: nowrap; height:45px; background:url(../images/menu_bg.png) no-repeat;}
+	#menu a{text-decoration: none;color: #FFF;}
+	#menu a:hover{color: #FFF;text-decoration: underline;}
+	
+.smenu td{padding:55px 10px 21px 20px; height:78px; font-size:18px; color:#000; width:295px; vertical-align:bottom;}
+.smenu td a{color:#000;display:block; text-decoration:none;}
+.smenu td#smenu1{background:url(../images/smenu1.jpg) no-repeat; background-position:0 10px;}
+.smenu td#smenu2{background:url(../images/smenu2.jpg) no-repeat; background-position:0 10px;}
+
+#contentwrap{position:relative; overflow:hidden; background:url(../images/header_bg_b.jpg) no-repeat top right; width:920px; margin:0 0 20px;}
+	#body_area{color:#000;text-align:left;padding:0px;vertical-align: top; float:right; width:605px;}
+	#sidebar{float:left; width:295px; font-size:12px; background:#eaeaea;}
+	#sidebar h2{display:block; background:url(../images/sidebar-h2.png) no-repeat; height:45px; font-size:18px; color:#fff; line-height:43px; padding:0 20px; overflow:hidden; margin:0;}
+	#sidebar .content{padding:20px 20px 5px;}
+	#sidebar .content p.data{color:#e30011; margin:0; font-size:11px;}
+	#sidebar .content p{font-size:12px; margin-bottom:15px;}
+	#sidebar .bottom{background:url(../images/sidebar_bottom.png) no-repeat; height:10px;}
+	#find_form{height:27px;width:238px; position:absolute; background:url(../images/find_bg.png) no-repeat; margin:31px 0 0 500px; padding:2px; overflow:hidden;}
+	#find_form input{width:174px;font-size: 13px; height:22px; border:0; padding:0 3px;}
+	#find_form img{float:right;}
+
+#footer{width:920px; background:#c2a06b; position:relative;}
+	#footer .top{height:10px; background:url(../images/footer_top.png) no-repeat; overflow:hidden;}
+	#footer .bot{height:10px; background:url(../images/footer_bot.png) no-repeat; overflow:hidden;}
+	#bottom_menu{color:#000;text-align: center;padding: 5px 15px 4px; font-size:12px;}
+	#bottom_menu a{color:#000;text-decoration:underline; padding:0 10px;}
+	#bottom_menu a:hover{color:#fff;text-decoration:underline;}
+
+	#bottom_addr{color:#FFF;text-align:center;padding: 4px 15px 5px; font-size:11px;}
+	#bottom_addr a{text-decoration:underline;}
+	#bottom_addr a:hover{text-decoration: underline;}
+
+

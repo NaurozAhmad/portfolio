@@ -1,0 +1,107 @@
+/*
+ * jQuery Contact Popup Plugin Stylesheet
+ * Version: 1.0
+ *
+ * Author: Chris Rivers and Nick Rivers
+ * http://chrisriversdesign.com
+ *
+ *
+ * Changelog: 
+ * Version: 1.0
+ *
+ */
+
+#contactpopup {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: 5px 5px 20px #000000;
+    display: none;
+    min-height: 400px;
+    padding-bottom: 5px;
+	position: absolute;
+    width: 743px;
+    z-index: 9001;
+}
+
+.modalnav {
+    background: url("../images/modal-nav.png") no-repeat;
+    cursor: pointer;
+    height: 32px;
+    margin-bottom: 18px;
+    width: 743px;
+}
+
+.modalnav:hover {
+    background: url("../images/modal-nav-hover.png") no-repeat;
+}
+
+#Form_PopContactUs {
+    padding: 1px 73px 22px;
+}
+
+#Form_PopContactUs fieldset input, #Form_PopContactUs fieldset textarea {
+    border: 1px solid #CCCCCC;
+    color: #555555;
+    margin-bottom: 4px;
+    padding: 6px;
+    width: 192px;
+}
+
+#Form_PopContactUs span.title {
+    color: #555555;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+#Form_PopContactUs fieldset {
+    border: medium none;
+}
+
+#Form_PopContactUs .submit {
+    background: none repeat scroll 0 0 #0E2448;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    float: right;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 5px 8px;
+}
+
+
+#Form_PopContactUs .col1, .content.generic #column-2 #Form_PopContactUs .col1 {
+    border-right: 1px solid #CCCCCC;
+    display: inline-block;
+    float: left;
+    margin-right: 77px;
+    padding-right: 77px;
+    width: 206px;
+}
+
+#Form_PopContactUs .col2, .content.generic #column-2 #Form_PopContactUs .col2 {
+    display: inline-block;
+    float: left;
+    width: 206px;
+}
+
+.button-pane {
+	margin: 13px 30px 0 0;
+}
+
+.clickable{
+    color: #002B54;
+    cursor: pointer;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+}

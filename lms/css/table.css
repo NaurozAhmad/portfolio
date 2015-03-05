@@ -1,0 +1,43 @@
+/* CSS Document */
+table a {padding: 1px;
+text-decoration: none;
+font-weight: bold;
+background: transparent;}
+
+table a:link {border-bottom: 1px dashed #ddd;
+color: #000;}
+
+table a:visited {border-bottom: 1px dashed #ccc;
+text-decoration: line-through;
+color: #808080;}
+
+table a:hover {
+	border-bottom: 1px dashed #bbb;
+	color: #666;
+	font-style: italic;
+	text-align: center;
+}
+
+/* =head =foot
+----------------------------------------------- */
+
+thead th, tfoot th {border: 2px solid #000;
+text-align: left;
+font-size: 1.2em;
+font-weight: bold;
+color: #333;
+background: transparent;}
+
+tfoot td {border: 2px solid #000;}
+
+/* =body
+----------------------------------------------- */
+
+tbody th, tbody td {vertical-align: top;
+text-align: left;}
+
+tbody th {white-space: nowrap;}
+
+.odd {background: #fcfcfc;}
+
+tbody tr:hover {background: #fafafa;}	
