@@ -24,7 +24,7 @@ footer {
   	-moz-transition-duration: 0.4s;
 	-o-transition-duration: 0.4s;
 	transition-duration: 0.4s;
-	
+
 }
 .tm {
 	width: 30px;
@@ -42,7 +42,7 @@ footer {
 	transition-duration: 0.4s;
 }
 .col-centered {
-	
+
 	margin: 0 auto;
 }
 .join-us-fb, .join-us-tt, .join-us-tm {
@@ -96,7 +96,7 @@ footer {
 }
 .btn-footer:hover {
 	color: #FFFFFF;
-	border-bottom: 1px solid #FFFFFF;	
+	border-bottom: 1px solid #FFFFFF;
 }
 .footer-date {
 	margin-top: 2em;
@@ -258,7 +258,7 @@ a {
 	transition-duration: 0.4s;
 }
 .navbar-inner {
-	background-color: rgba(0, 0, 0, 1);	
+	background-color: rgba(0, 0, 0, 1);
 }
 .navbar-collapse {
 	padding-left: 0px;
@@ -319,7 +319,7 @@ a {
 	color: #f36551;
 }
 .btn:hover {
-	
+
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -571,7 +571,7 @@ li.active .cust-tab-p, .cust-tab-p:focus {
 	margin-top: -10px;
 	opacity:0;
 	width:100%;
-	height:100%; 
+	height:100%;
 }
 .back h4 {
 	padding: 60px 40px 0;
@@ -581,12 +581,8 @@ li.active .cust-tab-p, .cust-tab-p:focus {
 }
 .back .subtitle {
 	font-family: 'Raleway', 'sans-serif';
-	
-	margin-left: 5%;
-	width: 90%;
-	padding-top: .5em;
+	padding: 6px;
 	color: #FFFFFF;
-	text-align: center;
 	text-shadow: 2px 4px 4px #000000;
 }
 .back .port {
@@ -640,5 +636,5 @@ li.active .cust-tab-p, .cust-tab-p:focus {
 @media (max-width: 768px) {
 .dropdown:hover .dropdown-menu {
 	display: block;
-}		
+}
 }

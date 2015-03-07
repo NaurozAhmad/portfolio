@@ -18,7 +18,7 @@ $word = mysql_query($query_word, $con) or die(mysql_error());
          if(($totalRows_word = mysql_num_rows($word)) > 0) {
             while($row_word = mysql_fetch_assoc($word)){
                ?>
-               <article class="mix <?php echo $row_word['type'] ?> hover-dynamic" data-myorder="1" style="background-image: url('_assets/_img/port-thumb/<?php echo $row_word['image'] ?>'); background-size: 500px 265px;">
+               <article class="mix text-center <?php echo $row_word['type'] ?> hover-dynamic" data-myorder="1" style="background-image: url('_assets/_img/port-thumb/<?php echo $row_word['image'] ?>'); width: 500px; height: 265px;">
                   <div class="back">
                      <h4><?php echo $row_word['heading'] ?></h4>
                      <p class="subtitle"><?php echo $row_word['description'] ?></p>
@@ -30,8 +30,8 @@ $word = mysql_query($query_word, $con) or die(mysql_error());
                <?php
             }
          } ?>
-</div>
-</div>
+      </div>
+   </div>
 </div>
 <?php
 mysql_free_result($word);
